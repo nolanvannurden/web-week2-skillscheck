@@ -1,0 +1,85 @@
+.top-bar{
+	background-color: gray;
+	color: grey;
+	height: 5vh;
+	width: 100vw;
+	display: flex;
+}
+.left-top-links{
+	color: white;
+	margin:auto 5px;
+	font-size: 20px;
+}
+
+.right-top-links{
+	color: white;
+	font-size: 20px;
+	margin-left: 200px;
+	margin-top: 1vh;
+}
+
+.right-top{
+	color: white;
+	display: flex;
+	margin-left: 35vw;
+}
+
+.middle-box {
+	background-color: black;
+	width: 100vw;
+	height: 15vh;
+	box-sizing: content-box;
+	position: relative;
+	align-content: center;
+
+}
+.the-more {
+	flex: content;
+	color: white;
+	text-align: center;
+	font-size: 40px;
+}
+
+.teal-boxes{
+	background-color: teal;
+	color: teal;
+	display: inline-block;
+	height: 200px;
+	width: 200px;
+	align-content: space-around;
+	box-sizing: content-box;
+	align-items: center;
+	margin-left: 27vh;
+	margin-top: 5vh;
+	border-radius: 5%;
+}
+
+.orange-boxes{
+	background-color: orange;
+	display: inline-block;
+	height: 20vh;
+	width: 30vw;
+	justify-content: center;
+	align-content: space-around;
+	margin-left: 13vw;
+	margin-top: 5vh;
+}
+
+.text-box{
+	box-sizing: content-box;
+	width: 55vh;
+	height: 30vh;
+	align-content: center;
+	margin-top: 5vh;
+	margin-left: 25vh;
+	font-size: larger;
+}
+
+.bottom-right-box{
+	background-color: pink;
+	width: 55vh;
+	height: 30vh;
+	align-content: center;
+	margin-left: 56.5vw;
+	margin-top: -30vh;
+}
